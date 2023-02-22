@@ -1,0 +1,26 @@
+.scroll-to-top {
+  overflow-y: scroll;
+}
+.button {
+  position: fixed;
+  width: 0;
+  left: 96%;
+  top: 78%;
+  height: 10%;
+  z-index: 10;
+  cursor: pointer;
+  color: #001731;
+  background-color: red;
+  color: black;
+}
+
+.scroll-img {
+  height: 80px;
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    display: none;
+  }
+}

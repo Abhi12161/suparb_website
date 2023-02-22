@@ -1,0 +1,69 @@
+.ExploreCategories {
+  width: 90%;
+  margin: 0 auto;
+  background-color: transparent;
+  margin-top: 19%;
+}
+.explore-slider-container {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 6%;
+  transition: 0.3s;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  margin: 2px 0px 2px 0px;
+  cursor: pointer;
+}
+.explore-slider-container:hover {
+  box-shadow: 0px 0px 8px rgba(106, 167, 77, 0.8);
+}
+.explore-slider-cards {
+  background-color: transparent;
+}
+.explore-slider-box {
+  background-color: transparent;
+  border-radius: 5%;
+  padding: 0px 10px 0px 10px;
+  height: 10vh;
+}
+.explore-card-heading {
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.explore-card-text {
+  display: flex;
+  flex-direction: row;
+  position: left;
+  font-weight: 50;
+  color: #6e6e6e;
+  font-size: 15px;
+}
+
+.explore-prev {
+  border: 0.2px solid transparent !important;
+  border-radius: 45% !important;
+  border: none;
+  color: #647970;
+  background: #f5faf3 !important;
+}
+
+.explore-next {
+  border: 0.2px solid transparent !important;
+  border-radius: 45% !important;
+  background: #f5faf3;
+  color: #647970;
+}
+
+.explore-prev:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.explore-next:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,58 @@
+
+.listing-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 40px;
+    margin-bottom: 30px;
+    gap: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    justify-content: space-between !important;
+    padding: 1.5%;
+  
+    @media screen and (max-width: 3200px) {
+      grid-template-columns: repeat(6, 1fr) !important ;
+    }
+    @media screen and (max-width: 2300px) {
+      grid-template-columns: repeat(4, 1fr) !important ;
+    }
+    @media screen and (max-width: 1640px) {
+      grid-template-columns: repeat(3, 1fr) !important ;
+    }
+    @media screen and (max-width: 1440px) {
+      grid-template-columns: repeat(3, 1fr) !important ;
+    }
+    @media screen and (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr) !important ;
+    }
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr) !important ;
+    }
+    @media only screen and (max-width: 640px) {
+      grid-template-columns: repeat(1, 1fr) !important ;
+    }
+  }
+  
+  .city-card {
+    max-width: 300px !important;
+    margin: 0 auto;
+    padding: 1.5%;
+  
+    @media screen and (max-width: 1200px) {
+      max-width: 350px !important;
+    }
+    @media screen and (max-width: 1024px) {
+      max-width: 340px !important;
+    }
+    @media only screen and (max-width: 768px) {
+      max-width: 300px !important;
+    }
+    @media only screen and (max-width: 425px) {
+      max-width: 300px !important;
+      margin-bottom: 2%;
+    }
+    @media only screen and (max-width: 390px) {
+      max-width: 290px !important;
+      margin-bottom: 2%;
+    }
+  }
+  

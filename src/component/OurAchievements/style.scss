@@ -1,0 +1,21 @@
+.css-sgrtck-MuiTypography-root {
+  padding-top: 30px !important;
+}
+.head-text {
+  text-align: center !important;
+  color: #001731 !important;
+  font-family: FreightBig, Serif, Arial, Sans-Serif !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  letter-spacing: 0.8px !important;
+  margin: 0 !important;
+  @media only screen and (max-width: 768px) {
+    // font-size: 17px;
+    // font-weight: bolder;
+    font-size: 30px !important;
+    width: initial !important;
+    letter-spacing: 0.8px !important;
+  }
+}

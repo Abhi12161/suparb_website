@@ -1,0 +1,99 @@
+.hompageCarouselContainer {
+  position: sticky !important;
+}
+
+.hompageCarousel {
+  position: relative !important;
+  @media screen and (max-width: 1440x) {
+    width: 100vw;
+  }
+  @media screen and (max-width: 375x) {
+    width: 100vw;
+  }
+  @media screen and (max-width: 320px) {
+    width: 100vw;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 10px !important;
+    width: 56px;
+    height: 5px;
+    transform: translateX(50%);
+    // color: #fff;
+    background-color: #fff !important;
+  }
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+
+  .slider-video {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+  .contentText{
+    font-size: 20px;
+  }
+  .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    .content {
+      margin: 0 auto;
+      position: absolute;
+      left: 12%;
+      top: 28px;
+      font-family: FreightBig, Serif, Arial, Sans-Serif;
+      font-size: 62px;
+      letter-spacing: 1.35px;
+      line-height: 52px;
+      margin-bottom: 30px;
+      color: #fff;
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    top: 60px;
+  }
+      .contentContainer {
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 28px;
+        align-items: center;
+        display: flex;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: none;
+        .circleContent {
+          background: #c29b40;
+          width: 4px;
+          height: 4px;
+          border-radius: 2px;
+          margin: 0 12px;
+        }
+      }
+      .carouselBtn {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        font-family: Benton, Arial, Sans-Serif;
+        font-size: 13px;
+        letter-spacing: 1.4px;
+        font-weight: 700;
+        line-height: 13px;
+        text-transform: uppercase;
+        .iconArrow {
+          margin-left: 5px;
+          transition: 0.3s ease;
+        }
+        &:hover {
+          .iconArrow {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}

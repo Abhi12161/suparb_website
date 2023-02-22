@@ -1,0 +1,27 @@
+.most-recent-post {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    height: 80vh;
+}
+
+.blog-content-card {
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 17px;
+}
+
+.blogs-content-model-box {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.blogs-content {
+    width: 90%;
+    margin: 0 auto;
+}

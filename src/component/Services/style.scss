@@ -1,0 +1,51 @@
+.services-below-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1d221e;
+  margin-bottom: 50px;
+}
+
+.services-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.services-grid-item {
+  cursor: pointer;
+  margin-right: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.services-price-tag {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.61);
+  border-radius: 0 20px 20px 0;
+  color: #ffd194;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.77rem;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 2%;
+  padding: 0 0.967rem;
+  text-align: center;
+}
+
+.services-card-img {
+  width: 290px;
+  height: 200px;
+}
+
+.services-card-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #8b8b8b;
+  padding: 0px 10px 0px 10px;
+}

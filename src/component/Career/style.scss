@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+.career-banner {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -10px;
+  max-height: 375px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner-imager-text {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  font-weight: 300;
+  text-transform: capitalize;
+  background: #ffd194;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  backdrop-filter: blur(2px);
+}
+
+.career-maindiv {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 70px;
+}
+.page-heading {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.page-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 170%;
+  color: #505050;
+}
+
+.career-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  @media screen and (max-width: 500px) {
+    grid-template-columns: auto;
+    width: 100vw;
+  }
+}
+.career-grid-item {
+  // padding: 30px;
+}
+
+.contact-form-card {
+  background: #ffffff;
+  border: 1px solid #ffd194;
+  border-radius: 19px;
+  width: 500px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.submit-button {
+  background: #6aa74d;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  box-shadow: 0px 0px 4px rgb(35, 124, 17);
+}

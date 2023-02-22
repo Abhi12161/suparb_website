@@ -1,0 +1,108 @@
+.propertyPageNavbarContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+    height: 20px;
+    background: #a1b3a7;
+    font-family: Benton, Arial, Sans-Serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+    .navLogo2 {
+      text-decoration: none;
+      height: 100%;
+      .navImg2 {
+        opacity: 1;
+        object-fit: contain;
+        height: 100%;
+        background-color: transparent !important;
+        width: 78%;
+      }
+    }
+  }
+  
+  .tooltiptail {
+    position: absolute !important;
+    display: block;
+    border-color: transparent transparent #ffffff transparent;
+    border-style: solid;
+    border-width: 10px;
+    width: 0px;
+    height: 0px;
+    top: 40px;
+    left: 20%;
+    z-index: 10 !important;
+  }
+  
+  .citydropdown {
+    position: absolute;
+    z-index: 1000 !important;
+    display: flex;
+    margin-left: 160px;
+    margin-top: 64px;
+    min-width: 51% !important;
+    max-width: 51% !important;
+  }
+  .citydropdown-ui {
+    display: flex;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    background: #ffffff;
+    color: #ffd194;
+    padding: unset;
+    max-width: 45.5%;
+    min-width: 45.5%;
+    min-height: 20px !important;
+    max-height: 20px !important;
+  }
+  .dropdown-tabs {
+    background: #414a46 !important;
+    color: #d1913c !important;
+    min-width: 1px !important;
+    min-height: 1px !important;
+    max-height: 1px !important;
+    padding: 10.2px !important;
+  }
+  .css-1aquho2-MuiTabs-indicator {
+    background-color: #d1913c !important;
+  }
+  
+  .css-1n6sfyn-MenuList {
+    position: relative !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+  .citydropdown-input-box {
+    position: absolute;
+    margin-top: 10px;
+    min-width: 45.5%;
+    max-width: 45.5%;
+    color: black;
+  }
+  .citydropdown-input {
+    margin-top: 14px;
+  }
+  
+  .property-searchbar {
+    width: 38%;
+    position: relative;
+    .container_form {
+      width: 100%;
+      .dropdown {
+        margin-left: 10px;
+        display: flex;
+        .home_input {
+          width: 100%;
+          border: transparent;
+          // background-color: #f9f9f9;
+        }
+      }
+    }
+  }
+  

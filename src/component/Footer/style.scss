@@ -1,0 +1,245 @@
+// .footer-main {
+//   background: #A1B3A7;
+//   width: 100%;
+//   @media screen and (max-width: 380px) {
+//     width: 100vw;
+//   }
+//   @media screen and (max-width: 330px) {
+//     width: 100vw;
+//   }
+// }
+// .footer {
+//   font-family: Benton-Book, Arial, Sans-Serif;
+//   color: #fff;
+//   position: relative;
+//   width: 72%;
+//   margin: 0 auto;
+// }
+// .css-vw1wj9 {
+//   @media screen and (max-width: 320px) {
+//     display: block !important;
+//   }
+//   @media screen and (max-width: 430px) {
+//     display: block !important;
+//   }
+// }
+
+// .css-15n0lfp {
+//   @media screen and (max-width: 768px) {
+//     grid-template-columns: repeat(2, 1fr) !important;
+//   }
+//   @media screen and (max-width: 430px) {
+//     display: block !important;
+//   }
+// }
+
+// .footer-h3 {
+//   font-size: 28px;
+//   line-height: 34px;
+//   letter-spacing: 0;
+// }
+
+// .footer-p {
+//   color: #999;
+//   font-family: Benton-Book, Arial, Sans-Serif;
+//   font-size: 14px;
+//   font-weight: 400;
+//   line-height: 1.71;
+//   padding-bottom: 20px;
+// }
+
+// .footer-ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .footer-li {
+//   padding-bottom: 20px;
+//   width: 100%;
+//   margin: 0 auto;
+//   font-family: Mercury;
+//   display: inline-block;
+//   cursor: pointer;
+// }
+
+// .footer-2 {
+//   border-top: 1px solid gray;
+//   padding-bottom: 60px;
+// }
+
+// .footer-2-h4 {
+//   font-family: Mercury;
+//   padding-bottom: 12px;
+//   font-size: 24px;
+// }
+
+// .footer-2-p {
+//   color: #999;
+//   font-family: Benton-Book, Arial, Sans-Serif;
+//   font-size: 14px;
+//   font-weight: 400;
+//   margin-top: -30px;
+//   line-height: 1.71;
+// }
+
+// .footer-3 {
+//   padding-top: 55px;
+//   margin-bottom: 10%;
+//   width: 72%;
+//   margin: 0 auto;
+//   @media screen and (max-width: 430px) {
+//     width: 100%;
+//     margin: 0 auto;
+//   }
+//   @media screen and (max-width: 320px) {
+//     width: 100%;
+//     margin: 0 auto;
+//   }
+// }
+// .footer-3-p {
+//   display: flex;
+//   justify-content: space-between;
+//   margin-right: 20px;
+//   margin-left: 20px;
+//   padding: 16px 0;
+//   border-top: 1px solid #d6d6d6;
+// }
+
+// .footer-3-li {
+//   padding-bottom: 20px;
+//   color: #000000;
+//   font-family: Mercury, Arial, Sans-Serif;
+//   line-height: 24px;
+//   letter-spacing: 0;
+//   font-style: normal;
+//   font-stretch: normal;
+//   margin: 0;
+// }
+
+// .grid-3 {
+//   display: contents;
+//   @media screen and (max-width: 768px) {
+//     display: none;
+//   }
+// }
+// @media (min-width: 920px) and (max-width: 2560px) {
+//   .footer-3-parent {
+//     display: none;
+//   }
+// }
+// ​
+// // }
+// .footer-last {
+//   border-left: 1px solid #666;
+//   padding-left: 10px;
+//   cursor: pointer;
+//   font-weight: 500;
+//   color: #666;
+// }
+
+// .footer-last-p {
+//   font-family: Benton-Book, Arial, Sans-Serif;
+//   font-size: 12px;
+//   font-weight: 400;
+//   line-height: 20px;
+//   color: #666;
+// }
+// .footer-copyright-p {
+//   font-family: Benton-Book, Arial, Sans-Serif;
+//   font-size: 12px;
+//   font-weight: 400;
+//   line-height: 20px;
+//   color: #666;
+//   text-align: center;
+// }
+
+// ::marker {
+//   color: #c29b40;
+// }
+
+// .footer-4-li {
+//   font-family: Mercury-italic, Arial, Sans-Serif;
+//   font-size: 13px;
+//   font-weight: 400;
+//   line-height: 24px;
+//   letter-spacing: 0;
+//   color: #002349;
+//   cursor: pointer;
+//   letter-spacing: 0.4px;
+// }
+
+// .seeButton {
+//   .seeBtnIcon {
+//     transition: 0.3s ease;
+//     color: #fff;
+//   }
+//   &:hover {
+//     .seeBtnIcon {
+//       left: 100px;
+//     }
+//   }
+// }
+
+// .showmorebutton {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .showmorebutton:hover {
+//   cursor: pointer;
+//   color: #8e740b;
+// }
+
+.showmorebutton-footer {
+  display: flex;
+}
+
+.showmorebutton-footer:hover {
+  cursor: pointer;
+  color: #c29b40;
+}
+
+.footer-main {
+  width: 100%;
+
+  .footer-DiscoverHome-img {
+    width: 100%;
+  }
+
+  .footer-footerBuilding {
+    width: 100%;
+    margin-top: -7px;
+    position: relative;
+    background-color: #313835;
+
+    .footer-footerCity {
+      position: absolute;
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      color: #a6a6a6;
+     
+    }
+
+    .footer-footerBuilding-img {
+      width: 100%;
+      margin-top: 30%;
+    }
+
+    .footer-ul {
+      list-style: none;
+      font-weight: 400;
+      font-size: 17px;
+      cursor: pointer;
+
+      .footer-li {
+        margin-top: 8px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 13px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+.property-slider-container {
+  // display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.prev {
+  border-radius: 45% !important;
+  border: none;
+  color: #647970;
+  background: #F5FAF3;
+}
+.next {
+  border: 0.2px solid white !important;
+  border-radius: 45% !important;
+  background: #F5FAF3;
+  color: #647970;
+}
+.prev:hover {
+  // background-color: rgba(133, 133, 133, 0.479);
+  transform: scale(1.15);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.next:hover {
+  // background-color: rgba(133, 133, 133, 0.479);
+  transform: scale(1.15);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.slider-btn-container {
+  display: flex !important;
+  flex-direction: row;
+  margin-right: 2%;
+  width: 8%;
+  position: relative;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .slider-btn-container {
+    display: flex !important;
+    flex-direction: row;
+    margin-right: 2%;
+    width: 8%;
+    position: relative;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .slider-btn-container {
+    display: flex !important;
+    flex-direction: row;
+    margin-right: 8%;
+    width: 10%;
+    position: relative;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider-btn-container {
+    display: flex !important;
+    flex-direction: row;
+    margin-right: 8%;
+    width: 15%;
+    position: relative;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 600px) {
+  .slider-btn-container {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .slider-btn-container {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .slider-btn-container {
+    display: none !important;
+  }
+  .property-slider-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+.property-slider-cards{
+  padding: 10px 0 10px 0;
+}
+
+
+.css-mm42gz-MuiButtonBase-root-MuiFab-root {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  flex-shrink: unset;
+}
+.swiper-slide img {
+  display: block;
+  object-fit: contain;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.swiper-pagination-progressbar {
+  background: rgba(0, 0, 0, 0.25);
+  position: inherit !important;
+  height: 2px !important;
+  margin-top: 1px !important;
+  color: #002349 !important;
+}
+
+.PropertySlider-box{
+  background-color: #fff;
+  border-radius: 20px;
+}

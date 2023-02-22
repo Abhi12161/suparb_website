@@ -1,0 +1,91 @@
+.actionbar-container {
+  margin: 0 auto;
+  width: 30vw;
+  margin-bottom: 20px;
+}
+
+.actionbar {
+  display: flex;
+  position: sticky;
+  top: 12%;
+  margin-bottom: 5%;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.form-tabs {
+  font-size: 12px !important;
+}
+
+.contact-from-tabs {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.form-maindiv {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.form-one-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-one-download-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  background: #8b8b8b;
+  border-radius: 6px;
+  border: none;
+}
+.form-one-download-btn-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.form-btn-image-btn {
+  display: inline-flex;
+  justify-content: space-between;
+  border: 1px solid #c5ddba;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 15px 20px 15px 20px;
+}
+.form-btn-image {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 10px;
+}
+.form-btn-image-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.form-two-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+.form-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.other-options {
+  margin: 0 auto;
+  width: 90%;
+}
+.form-radio-btn {
+  margin-left: -10%;
+  height: 10px;
+}

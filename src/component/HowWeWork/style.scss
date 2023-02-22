@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+.how-banner {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -10px;
+  max-height: 375px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.how-banner-imager-text {
+  position: absolute;
+  left: 4%;
+  top: 30%;
+  font-weight: 300;
+  text-transform: capitalize;
+  background: #ffd194;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  backdrop-filter: blur(2px);
+}
+.how-maindiv {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 70px;
+}
+.page-heading {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.how-card {
+  display: flex;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: #ffffff;
+}
+.how-card-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  color: #1d221e;
+  margin-top: 1.5%;
+  padding-left: 20px;
+}

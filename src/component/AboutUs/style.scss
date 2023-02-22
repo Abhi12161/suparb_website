@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+.about-us-banner {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -10px;
+  max-height: 375px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner-imager-text {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  font-weight: 300;
+  text-transform: capitalize;
+  background: #ffd194;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  backdrop-filter: blur(2px);
+}
+
+.about-us-maindiv {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 70px;
+}
+.page-heading {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.page-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 170%;
+  color: #505050;
+}
+.timeline-container {
+  width: 100%;
+}
+.timeline-date-text {
+  font-family: "Prata" !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  color: #505050 !important;
+}
+.timeline-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 22px;
+  background: #ffffff;
+}
+.timeline-heading {
+  background: #647970;
+  border-radius: 22px 22px 0px 0px;
+}
+.timeline-heading-text {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 141.4%;
+  text-transform: capitalize;
+  color: #ffd194;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.timeline-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 163.4%;
+  color: #505050;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}

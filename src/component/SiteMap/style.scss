@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+.site-map-banner {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -10px;
+  max-height: 375px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.site-map-image-text {
+  position: absolute;
+  left: 4%;
+  top: 30%;
+  font-weight: 300;
+  text-transform: capitalize;
+  background: #ffd194;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  backdrop-filter: blur(2px);
+}
+
+.site-map-maindiv {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 70px;
+}
+
+.site-map-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.site-map-grid-item {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 141.4%;
+  text-transform: uppercase;
+  color: #6aa74d;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

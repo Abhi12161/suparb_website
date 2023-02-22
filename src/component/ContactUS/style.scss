@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+.contact-us-banner {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -10px;
+  max-height: 375px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner-imager-text {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  font-weight: 300;
+  text-transform: capitalize;
+  background: #ffd194;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  backdrop-filter: blur(2px);
+}
+
+.contact-us-maindiv {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.page-heading {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.maindetails {
+  display: flex;
+  width: 65vw;
+  flex-direction: column;
+}
+.contact-us-grid-container {
+  width: 95%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 70px;
+  gap: 10px;
+}
+
+.contact-us-grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.contact-us-card-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+.contact-us-card-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: #000000;
+}
